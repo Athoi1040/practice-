@@ -6,7 +6,7 @@ int main()
  a=b=4;
  b=a++;
 
- printf("%d %d %d %d",a++,--b);
+ printf("%d %d %d",a++,--b);
 
  return 0;
 
