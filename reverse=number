@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(){
+
+    int Num, temp=Num, rev_Num = 0, remainder;
+
+    printf("Enter the number to reverse: ");
+
+    scanf("%d", &Num);    
+temp=Num;
+
+    while (Num != 0){
+         
+         Num=Num/10;
+        remainder = Num % 10;
+
+        rev_Num = rev_Num * 10 + remainder;
+
+        
+
+    }    
+
+    printf("The reversed number is: %d\n", rev_Num);
+    
+	if(temp==rev_Num){
+    	
+    	printf("Numbers are equal");
+    	
+    	
+	}
+	else{
+		
+			printf("Numbers are not equal");
+    	
+		
+	}
+     
+    return 0;
